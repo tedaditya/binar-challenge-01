@@ -1,3 +1,9 @@
 .bg-primer{
     background-color: #F1F3FF !important;
 }
+
+html, body{
+    font-family: Helvetica;
+    box-sizing: border-box;
+    margin: 0;
+}
