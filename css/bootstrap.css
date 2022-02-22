@@ -3586,6 +3586,7 @@ textarea.form-control-lg {
     right: 0;
     left: auto;
   }
+
 }
 @media (min-width: 768px) {
   .dropdown-menu-md-start {
