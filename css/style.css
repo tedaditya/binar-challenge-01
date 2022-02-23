@@ -361,3 +361,75 @@ li{
     margin-bottom: 16px;
     border: 1px solid #D4D4D4 !important;
 }
+
+.address p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.link-footer a{
+    text-decoration: none;
+    /* Body/14/Regular */
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #000000;
+}
+
+.link-footer li{
+    margin-bottom: 16px;
+}
+
+.sosmed p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.sosmed li{
+    margin-right: 0;
+    border: none;
+}
+
+.sosmed .list-group-item{
+    padding: 0 !important;
+    margin-right: 16px;
+}
+
+.copyright p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+footer{
+    margin-bottom: 100px;
+}
