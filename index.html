@@ -10,6 +10,8 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
     <script src="/js/bootstrap.js"></script>
     <link rel="stylesheet" href="/css/style.css">
+    <!-- Tiny Slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 </head>
 
 <body>
@@ -73,7 +75,9 @@
 
                 <div class="col-4 offset-1">
                     <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
-                    <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
+                    <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang
+                        lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
+                        wedding, meeting, dll.</p>
                     <div class="list-services">
                         <div class="list-services-item">
                             <img src="/assets/img/check.png">
@@ -142,7 +146,8 @@
                         <div class="card-body">
                             <img src="/assets/img/icon_24hrs.png">
                             <h2>Layanan 24 Jam</h2>
-                            <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
+                            <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -158,6 +163,86 @@
             </div>
         </div>
     </div>
+
+    <!-- Testimonial -->
+    <div class="container-fluid testimonial" id="testimonialPage">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center">Testimonial</h1>
+                    <p class="text-center">Berbagai review positif dari para pelanggan kami</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-slider">
+        <div class="card slide-item">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="/assets/img/img_photo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <img src="/assets/img/Rate.png" alt="">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    <h2>John Dee 32, Bromo</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card slide-item">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="/assets/img/img_photo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <img src="/assets/img/Rate.png" alt="">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    <h2>John Dee 32, Bromo</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card slide-item">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="/assets/img/img_photo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <img src="/assets/img/Rate.png" alt="">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    <h2>John Dee 32, Bromo</h2>
+                </div>
+            </div>
+        </div>
+        <div class="card slide-item">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="/assets/img/img_photo.png" alt="">
+                </div>
+                <div class="col-md-8">
+                    <img src="/assets/img/Rate.png" alt="">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                    <h2>John Dee 32, Bromo</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.43/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script>
+    var slider = tns({
+        container: '.my-slider',
+        items: 3,
+        edgePadding: 32,
+        center: true,
+        slideBy: 1,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        nav: false,
+        controlsText: ["<", ">"],
+        controlsPosition: "bottom"
+    });
+    </script>
 </body>
 
 </html>
