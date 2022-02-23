@@ -327,3 +327,37 @@ li{
 .cta button{
     margin-top: 52px;
 }
+
+.faq{
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.faq h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+
+    color: #000000;
+}
+
+.faq p{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+
+    color: #000000;
+}
+
+.accordion-item{
+    margin-bottom: 16px;
+    border: 1px solid #D4D4D4 !important;
+}
