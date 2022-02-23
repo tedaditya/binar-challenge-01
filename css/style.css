@@ -278,3 +278,52 @@ li{
 .text-testi{
     padding-left: -32px;
 }
+
+.cta{
+    margin-top: 100px;
+}
+
+.cta .container{
+    height: 326px;
+    left: 136px;
+    top: 2078px;
+
+    /* Primary/DarkBlue/04 */
+
+    background: #0D28A6;
+    border-radius: 13px;
+}
+
+.cta h1{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+
+    text-align: center;
+
+    /* Neutral/01 */
+
+    color: #FFFFFF;
+    margin-top: 64px;
+}
+
+.cta p{
+    /* Body/14/Light */
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    /* or 143% */
+
+    /* Neutral/01 */;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.cta button{
+    margin-top: 52px;
+}
