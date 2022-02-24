@@ -19,42 +19,44 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm header-nav navbar-light bg-primer">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/img/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ourService">Our Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#whyUs">Why Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonialPage">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faqPage">FAQ</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <button class="btn btn-primer">Register</button>
-                </ul>
+        <nav class="navbar navbar-expand-sm header-nav navbar-light bg-primer">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/img/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourService">Our Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whyUs">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonialPage">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faqPage">FAQ</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <button class="btn btn-primer">Register</button>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    
 
     <!-- Home -->
     <div class="container-fluid home pt-5 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <h1>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+                <div class="col-lg-6 col-sm-12">
+                    <img src="/assets/img/img_car.png" class="img-mobil-kecil" alt="">
+                    <h1 class="">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
                     <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga
                         terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
                     <button class="btn btn-primer">Mulai Sewa Mobil</button>
@@ -72,11 +74,11 @@
     <div class="container-fluid our-service" id="ourService">
         <div class="container">
             <div class="row">
-                <div class="col-4 offset-1">
-                    <img class="img-fluid" src="/assets/img/img_service.png" alt="Image Service">
+                <div class="col-lg-4 offset-lg-1 col-sm-12 cont-img-service">
+                    <img class="img-fluid img-service" src="/assets/img/img_service.png" alt="Image Service">
                 </div>
 
-                <div class="col-4 offset-1">
+                <div class="col-lg-4 offset-lg-1 col-sm-12 cont-txt-service">
                     <h1>Best Car Rental for any kind of trip in (Lokasimu)!</h1>
                     <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang
                         lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
@@ -119,14 +121,14 @@
     <div class="container-fluid why-us" id="whyUs">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 cont-txt-why">
                     <h1>Why Us?</h1>
                     <p>Mengapa harus pilih Binar Car Rental?</p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-3 cont-card">
                     <div class="card">
                         <div class="card-body">
                             <img src="/assets/img/icon_complete.png">
@@ -135,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 cont-card">
                     <div class="card">
                         <div class="card-body">
                             <img src="/assets/img/icon_price.png">
@@ -144,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 cont-card">
                     <div class="card">
                         <div class="card-body">
                             <img src="/assets/img/icon_24hrs.png">
@@ -154,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-3 cont-card">
                     <div class="card">
                         <div class="card-body">
                             <img src="/assets/img/icon_professional.png">
@@ -318,12 +320,12 @@
     <div class="container-fluid faq" id="faqPage">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-12 cont-txt-faq">
                     <h1>Frequently Ask Question</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
 
-                <div class="col-7 offset-1">
+                <div class="col-lg-7 offset-lg-1 col-sm-12">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -437,7 +439,7 @@
                         <p>081-233-334-808</p>
                     </div>
 
-                    <div class="col-2 offset-1 link-footer">
+                    <div class="col-2 offset-lg-1 link-footer">
                         <ul>
                             <li><a href="#ourService">Our Services</a></li>
                             <li><a href="#whyUs">Why Us</a></li>
@@ -475,16 +477,27 @@
             container: '.my-slider',
             items: 2,
             edgePadding: 32,
-            center: true,
+            center: false,
             slideBy: 1,
-            swipeAngel: false,
+            swipeAngel: true,
             autoplayButtonOutput: false,
             mouseDrag: true,
             nav: false,
             controlsText: ["<img src='/assets/img/Left button.png'>",
                 "<img src='/assets/img/Right button.png'"
             ],
-            controlsPosition: "bottom"
+            controlsPosition: "bottom",
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                576: {
+                    items: 2,
+                },
+                768: {
+                    items: 2
+                }
+            }
         });
     </script>
     <!-- Owl Carousel -->
@@ -499,7 +512,7 @@
             dots: false,
             responsive: {
                 0: {
-                    items: 1
+                    items: 2
                 },
                 600: {
                     items: 3
