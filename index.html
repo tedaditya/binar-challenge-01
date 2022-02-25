@@ -57,9 +57,13 @@
                 <div class="col-lg-6 col-sm-12">
                     <img src="./assets/img/img_car.png" class="img-mobil-kecil" alt="">
                     <h1 class="">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
-                    <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga
-                        terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
-                    <button class="btn btn-primer">Mulai Sewa Mobil</button>
+                    <div class="p-home">
+                        <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga
+                            terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+                    </div>
+                    <div class="button-home">
+                        <button class="btn btn-primer">Mulai Sewa Mobil</button>
+                    </div>
                 </div>
 
                 <div class="col-6">
@@ -83,28 +87,31 @@
                     <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang
                         lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis,
                         wedding, meeting, dll.</p>
-                    <div class="list-services">
-                        <div class="list-services-item">
-                            <img src="./assets/img/check.png">
-                            <p>Sewa Mobil Dengan Supir di Bali 12 Jam</p>
-                        </div>
-                        <div class="list-services-item">
-                            <img src="./assets/img/check.png">
-                            <p>Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
-                        </div>
-                        <div class="list-services-item">
-                            <img src="./assets/img/check.png">
-                            <p>Sewa Mobil Jangka Panjang Bulanan</p>
-                        </div>
-                        <div class="list-services-item">
-                            <img src="./assets/img/check.png">
-                            <p>Gratis Antar - Jemput Mobil di Bandara</p>
-                        </div>
-                        <div class="list-services-item">
-                            <img src="./assets/img/check.png">
-                            <p>Layanan Airport Transfer / Drop In Out</p>
+                    <div class="cont-list-service">
+                        <div class="list-services">
+                            <div class="list-services-item">
+                                <img src="./assets/img/check.png">
+                                <p>Sewa Mobil Dengan Supir di Bali 12 Jam</p>
+                            </div>
+                            <div class="list-services-item">
+                                <img src="./assets/img/check.png">
+                                <p>Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                            </div>
+                            <div class="list-services-item">
+                                <img src="./assets/img/check.png">
+                                <p>Sewa Mobil Jangka Panjang Bulanan</p>
+                            </div>
+                            <div class="list-services-item">
+                                <img src="./assets/img/check.png">
+                                <p>Gratis Antar - Jemput Mobil di Bandara</p>
+                            </div>
+                            <div class="list-services-item">
+                                <img src="./assets/img/check.png">
+                                <p>Layanan Airport Transfer / Drop In Out</p>
+                            </div>
                         </div>
                     </div>
+                    
                     <!-- <ul class="list-group">
                         <li class="list-group-item border-0"><img src="/assets/img/check.png" alt="">Sewa Mobil Dengan Supir di Bali 12 Jam</li>
                         <li class="list-group-item border-0">Sewa Mobil Lepas Kunci di Bali 24 Jam</li>
@@ -475,11 +482,11 @@
     <script>
         var slider = tns({
             container: '.my-slider',
-            items: 2,
+            items: 3,
             edgePadding: 32,
-            center: false,
+            center: true,
             slideBy: 1,
-            swipeAngel: true,
+            swipeAngel: false,
             autoplayButtonOutput: false,
             mouseDrag: true,
             nav: false,
