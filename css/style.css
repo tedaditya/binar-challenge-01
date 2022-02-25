@@ -156,7 +156,7 @@ li{
 }
 
 .card p{
-    width: 220px;
+    width: 100%;
     /* Body/14/Light */
 
     font-family: Helvetica;
@@ -520,13 +520,14 @@ footer{
 
     .cont-card{
         flex: 0 0 auto;
-        width: 50%;
+        width: 100% !important;
         margin-top: 1rem !important;
     }
 
     .cont-card p{
         width: 100%;
     }
+    
 
     /* CTA */
     .cta button{
